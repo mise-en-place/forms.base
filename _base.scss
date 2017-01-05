@@ -11,8 +11,8 @@ category: atoms
 */
 
 .form {
-    @extend .rule;
-    @extend .rule--all;
+    @extend .rule !optional;
+    @extend .rule--all !optional;
     @extend .rule--grey !optional;
     background-color: white;
     border-radius: rem-calc(2);
