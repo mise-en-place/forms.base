@@ -10,6 +10,8 @@ category: atoms
 ---
 */
 
+@import "tool-rem-calc";
+
 .form {
     @extend .rule !optional;
     @extend .rule--all !optional;
