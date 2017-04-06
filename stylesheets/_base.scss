@@ -10,7 +10,7 @@ category: atoms
 ---
 */
 
-@import "tool-rem-calc";
+@import "~mep-tools.rem-calc";
 
 .form {
     @extend .rule !optional;
